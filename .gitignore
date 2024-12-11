@@ -34,3 +34,13 @@ android/examples/*/libs
 android/*.zip
 android/local.properties
 android/examples/*/local.properties
+
+# Swift Package
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
+DerivedData/
+.swiftpm/config/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
