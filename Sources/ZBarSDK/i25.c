@@ -1,0 +1,1 @@
+../../zbar/decoder/i25.c

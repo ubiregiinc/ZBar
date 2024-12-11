@@ -1,0 +1,1 @@
+../../zbar/image.c

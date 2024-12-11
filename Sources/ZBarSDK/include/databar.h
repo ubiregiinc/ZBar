@@ -1,0 +1,1 @@
+../../../zbar/decoder/databar.h
