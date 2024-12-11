@@ -14,7 +14,7 @@ cp include/zbar/{Decoder,Exception,Image,ImageScanner,Processor,Scanner,Symbol,V
 xcodebuild -create-xcframework -library iphoneos.xcarchive/Products/usr/local/lib/libzbar.a -headers Headers/ -library iphonesimulator.xcarchive/Products/usr/local/lib/libzbar.a -headers Headers -output ZBarSDK.xcframework
 
 cp module.modulemap ZBarSDK.xcframework/ios-arm64/Headers/module.modulemap
-cp module.modulemap ZBarSDK.xcframework/ios-arm64/Headers/module.modulemap
+cp module.modulemap ZBarSDK.xcframework/ios-arm64-simulator/Headers/module.modulemap
 
 rm -rf iphoneos.xcarchive
 rm -rf iphonesimulator.xcarchive
