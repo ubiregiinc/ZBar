@@ -1,0 +1,5 @@
+module ZBarSDK {
+  umbrella header "ZBarSDK.h"
+  export *
+  module * { export * }
+}
